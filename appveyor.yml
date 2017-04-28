@@ -1,0 +1,7 @@
+build_script:
+  - cmd: echo "Life is good"
+#  - ps: .\build.cmd
+test: off
+artifacts:
+  - path: '*.nupkg'
+    type: NuGetPackage
